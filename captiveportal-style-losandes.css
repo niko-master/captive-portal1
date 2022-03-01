@@ -27,10 +27,8 @@
  
   .login{
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0; 
+    width: 100vw;
+    height: 100vh;
     display: grid;
     grid-template-areas:
     "header"
@@ -43,12 +41,10 @@
     background-image: url(imagenes/imagen2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom;
-    background-attachment: scroll;
+    background-position: center;
     }
   .login-content{
     grid-area: login;
-    position: relative;
     background: linear-gradient(90.18deg, #1d1d1ddc 31.74%, #1d1d1ddc 90.49%, #1d1d1ddc 90.49%);
     box-shadow: 2px 2px 5px 1px rgba(10, 10, 10, 0.63);
     border-radius: 20px;
